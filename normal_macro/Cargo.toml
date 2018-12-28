@@ -1,0 +1,10 @@
+[package]
+name = "normal_macro"
+version = "0.1.0"
+authors = ["foo"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.proc_macro]
+path = "../proc_macro"

@@ -1,0 +1,20 @@
+[package]
+name = "proc_macro"
+version = "0.1.0"
+authors = ["foo"]
+edition = "2018"
+
+[lib]
+name = "proc_macro"
+proc-macro = true
+
+[dependencies]
+quote = "^0.6.8"
+
+[dependencies.syn]
+version = "^0.15.18"
+features = ["full", "extra-traits"]
+
+[dependencies.proc-macro2]
+version = "^0.4.20"
+features = ["nightly"]
